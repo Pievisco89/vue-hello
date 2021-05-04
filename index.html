@@ -14,10 +14,14 @@
 
     <h1 :class="mioColore">{{ msg }}</h1>
 
+    <input type="text" v-model="miaClasse" placeholder="Cambia la classe del testo"><br>
+
     <button @click="cambioColore('blue')">Colora il testo di blue</button>
     <button @click="cambioColore('red')">Colora il testo di rosso</button>
     <button @click="cambioColore('green')">Colora il testo di verde</button>
-
+    
+    <img :src="immagine" alt="">
+    
   </div>
 
   <script src="assets/js/script.js"></script>

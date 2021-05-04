@@ -11,12 +11,15 @@ const app = new Vue ({
   el: '#app',
   data: {
     msg: 'Questo è un messaggio stampato utilizzando i data!',
-    mioColore: ''
+    mioColore: '',
+    miaClasse: '',
+    immagine: 'assets/img/palloncini.jpg'
   },
   methods: {
     cambioColore(classe){
-    this.mioColore = classe;
-    }
+      this.mioColore = classe;
+    },
+    
   }
 
 });
