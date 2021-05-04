@@ -18,8 +18,8 @@ const app = new Vue ({
   methods: {
     cambioColore(classe){
       this.mioColore = classe;
-    },
-    
+    }
+  
   }
 
 });
