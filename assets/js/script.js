@@ -18,6 +18,9 @@ const app = new Vue ({
   methods: {
     cambioColore(classe){
       this.mioColore = classe;
+    },
+    inputEnter(){ //per cambiare il colore tramite input e enter
+      this.mioColore = this.miaClasse;
     }
   
   }
